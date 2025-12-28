@@ -11,8 +11,8 @@ const poppins = Poppins({
 
 export const metadata = {
   title: {
-    template: '%s | Food Bit',
-    default: 'Best Food in City | Food Bit'
+    template: '%s | Food Bite',
+    default: 'Best Food in City | Food Bite'
   },
   description: "Best Fast Food in City",
 };
