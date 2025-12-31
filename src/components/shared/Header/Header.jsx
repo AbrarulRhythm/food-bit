@@ -6,11 +6,11 @@ import Image from 'next/image';
 
 const Header = () => {
     return (
-        <header className="px-5 py-6 flex justify-between gap-5 bg-gray-900/40 items-center">
+        <header className="py-6 flex justify-between gap-5 bg-gray-900/40 items-center">
             <div className='container'>
                 <div className='flex justify-between items-center'>
-                    <Link href='/'>
-                        <Image width={160} height={28} src='/logo.png' alt='Logo' />
+                    <Link href='/' className='hover:opacity-60 duration-300' title='🍒 Food Bite'>
+                        <Image width={160} height={28} src='/logo-white.png' alt='Logo' />
                     </Link>
                     <div className='flex  items-center'>
                         <div className='text-[22px] block md:hidden'>
